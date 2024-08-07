@@ -1,0 +1,102 @@
+body {
+    background-color: #0e0e0e;
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+}
+
+.visual-studio-code {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.topLink {
+    color: gray;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.navigation-bar {
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    font-weight: 400px;
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-one {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.image-and-title {
+    display: flex;
+    column-gap: 8px;
+}
+
+.topLink {
+    color: rgb(155, 163, 180);
+    cursor: pointer;
+    font-weight: 500;
+    padding: 0px 12px 0px 12px;
+}
+
+.input-field {
+    border: 1px solid white;
+    background-color: #0e0e0e;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.download-button {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #0078d4;
+    border: none;
+}
+
+.version-paragraph {
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    color: gray; 
+    display: flex; 
+    justify-content: center; 
+    font-weight: 400;
+}
+
+.version-paragraph > a {
+    color: #4daafc;
+}
+
+.image-description {
+    display: flex; 
+    padding-left: 200px; 
+    padding-right: 200px;
+    column-gap: 54px;
+}
+
+.h1, .h2, .h3 {
+    color: white;
+    font-size: 54px;
+    font-weight: 600;
+    padding: 0px;
+}
+
+.download-windows-button {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    padding: 16px 24px;
+    border-radius: 4px;
+    background-color: #0078d4;
+    border: none;
+}
