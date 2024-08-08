@@ -99,3 +99,8 @@ body {
     background-color: #0078d4;
     border: none;
 }
+
+.code-in-any-language {
+    border: 1px solid green;
+    
+}
