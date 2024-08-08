@@ -154,7 +154,7 @@ body {
 }
 
 .code-with-rich-features {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     color: white;
     display: flex;
     flex-direction: column;
@@ -219,4 +219,38 @@ body {
     font-weight: 500;
     line-height: 160%;
     text-align: center;
+}
+
+.footer-row-one {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px 0px 40px;
+}
+
+.footer-row-one > img {
+    width: 24px;
+}
+
+.twitter {
+    width: 18px;
+}
+
+.twitter-github-yt {
+    display: flex;
+    column-gap: 12px;
+}
+
+.footer-row-two {
+    color: #9ba3b4;
+    font-size: 12px;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    column-gap: 16px;
+    justify-content: flex-start;
 }
