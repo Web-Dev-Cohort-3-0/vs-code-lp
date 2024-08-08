@@ -78,8 +78,7 @@ body {
 
 .image-description {
     display: flex; 
-    padding-left: 200px; 
-    padding-right: 200px;
+    justify-content: center;
     column-gap: 54px;
 }
 
